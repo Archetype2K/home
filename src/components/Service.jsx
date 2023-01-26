@@ -6,9 +6,7 @@ function Service(props) {
     const [Destination, setDestination] = useState(props.Destination);
     
     return (
-        <div className="serviceContainer" onClick={handleClick}>
-            <h1>{Tag}</h1>
-        </div>
+        <></>
     )
 
     function handleClick(){
