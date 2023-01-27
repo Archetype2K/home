@@ -6,6 +6,8 @@ import Archi from './assets/archi.png';
 import Break from './components/Break';
 import Election from './assets/election_watcher.png';
 import Qfree from './assets/qfree.png';
+import Kanban from './assets/kanban.png';
+import Repos from './assets/repos.png';
 
 function Home() {
     return (
@@ -60,14 +62,33 @@ function Home() {
                 <img className="w-1/4 m-auto" src={Election} alt="voting for All" />
                 <img className="w-1/4 m-auto" src={Qfree} alt="voting for All" />
             </div>
+            <br></br><br></br>
 
-            <br></br>
-            <div className="flex flex-row">
-                <img className="w-1/4 m-auto" src={Election} alt="voting for All" />
-                <img className="w-1/4 m-auto" src={Qfree} alt="voting for All" />
+            <div className='text-white font-sans hover:font-serif text-center antialiased text-2xl'>
+                <h1>Team Work</h1>
+                <br></br>
             </div>
 
-            
+            <div>
+                <img className="w-1/2 m-auto" src={Kanban} alt="voting for All" />
+            </div>
+            <br></br><br></br>
+            <br></br><br></br>
+
+            <div className='text-white font-sans hover:font-serif text-center antialiased text-2xl'>
+                <h1>Repos</h1>
+                <br></br>
+            </div>
+
+            <div>
+                <img className="w-1/2 m-auto" src={Repos} alt="voting for All" />
+            </div>
+
+            <br></br><br></br>
+            <div className='text-white font-sans hover:font-serif text-center antialiased text-2xl'>
+                <h1>Made with 💖 by Archetype2K</h1>
+                <br></br>
+            </div>
 
 
         </div>
